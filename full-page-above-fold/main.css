@@ -4,12 +4,19 @@ body {
 }
 
 #id-atf {
+      /* layout */
       height: 100vh;
       display: flex;
-      /* flex-direction: row;
-      flex-wrap: nowrap; */
       justify-content: center;
       align-items: center;
+      /* background */
+      background-color: darkgrey;
+      background-image: url("background-photo.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      /* background-origin: border-box; */
+      background-attachment: fixed;
 }
 
 #id-center {
