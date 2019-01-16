@@ -4,7 +4,7 @@ html {
       color: whitesmoke;
 }
 
-#topbar {
+header {
       position: fixed;
       top: 0;
       left: 0;
@@ -16,18 +16,25 @@ html {
       align-items: center;
 }
 
-#logo {
+header div, header nav {
       width: 10%;
       height: 80%;
       margin: 0 1rem;
-      background-color: red;
+      display: flex;
+      align-items: center;
 }
 
-#nav {
-      width: 10%;
-      height: 80%;
-      margin: 0 1rem;
-      background-color: red;
+header nav {
+      justify-content: space-between;
+}
+
+.idx-hdr-svg {
+      width: 30px;
+      fill: white;
+}
+
+.idx-hdr-svg:hover {
+      fill: #9dbb88;
 }
 
 #idx-atf {
