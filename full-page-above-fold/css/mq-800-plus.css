@@ -28,16 +28,6 @@ header nav a:hover {
       background-color: dimgray;
 }
 
-.idx-hdr-svg {
-      width: 30px;
-      height: 100%;
-      fill: currentColor;
-}
-
-.idx-hdr-svg:hover {
-      fill: #9dbb88;
-}
-
 #idx-atf {
       background-image: url("../img/background-photo.jpg");
 }
@@ -53,4 +43,8 @@ h1 {
 
 h3 {
       margin-top: 0.4rem;
+}
+
+footer nav {
+      display: none;
 }

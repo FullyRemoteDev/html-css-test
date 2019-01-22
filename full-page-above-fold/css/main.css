@@ -44,6 +44,10 @@ header div a h1 {
       margin-left: 0.5rem;
 }
 
+.idx-hdr-svg:hover {
+      fill: #9dbb88;
+}
+
 #idx-atf {
       /* layout */
       height: 100vh;
@@ -106,3 +110,35 @@ header div a h1 {
       border-radius: 5px;
 }
 
+footer {
+      font-size: 1.5rem;
+}
+
+footer nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+footer nav a {
+      display: flex;
+      align-items: center;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-left: 3rem;
+      background-color: royalblue;
+      border-top: 1px solid rgba(255, 255, 255, 0);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer nav a:last-child {
+      border-bottom: none;
+}
+
+footer nav a:hover {
+      background-color: deepskyblue;
+}
+
+footer nav a svg {
+      padding-right: 1.7rem;
+}
