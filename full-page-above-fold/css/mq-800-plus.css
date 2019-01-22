@@ -1,9 +1,49 @@
+header nav, header nav a, header nav svg {
+      display: flex;
+}
+
+header {
+      justify-content: space-between;
+}
+
+header div, header nav {
+      width: 300px;
+      margin: 0 1rem;
+}
+
+header nav {
+      justify-content: space-between;
+}
+
+header div a {
+      justify-content: flex-start;
+}
+
+header nav a {
+      padding: 0 1rem;
+}
+
+header nav a:hover {
+      border-radius: 5px;
+      background-color: dimgray;
+}
+
+.idx-hdr-svg {
+      width: 30px;
+      height: 100%;
+      fill: currentColor;
+}
+
+.idx-hdr-svg:hover {
+      fill: #9dbb88;
+}
+
 #idx-atf {
       background-image: url("../img/background-photo.jpg");
 }
 
 #idx-atf > div {
-      height: 20vh;
+      height: 18vh;
 }
 
 h1 {
@@ -12,5 +52,5 @@ h1 {
 }
 
 h3 {
-      margin-top: 0.5rem;
+      margin-top: 0.4rem;
 }

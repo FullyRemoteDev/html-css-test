@@ -8,58 +8,40 @@ header {
       position: fixed;
       top: 0;
       left: 0;
-      background-color: rgba(0, 0, 0, 0.6);
-      height: 2.8rem;
       width: 100%;
+      height: 2.8rem;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+      background-color: rgba(0, 0, 0, 0.6);
 }
 
 header div, header nav {
-      width: 15%;
+      width: 100%;
       height: 80%;
-      margin: 0 1rem;
       display: flex;
       align-items: center;
 }
 
-header nav {
-      justify-content: space-between;
+header nav, header nav a, header nav svg {
+      display: none;
 }
 
-header nav a {
-      padding: 0 1rem;
-}
-
-header div a {
+header a {
       height: 100%;
+      width: 100%;
       display: flex;
+      justify-content: center;
       align-items: center;
 }
 
-header div a:hover {
+header a:hover {
       color: #9dbb88;
-}
-
-header nav a:hover {
-      border-radius: 5px;
-      background-color: dimgray;
 }
 
 header div a h1 {
       font-size: 1rem;
       margin-left: 0.5rem;
-}
-
-.idx-hdr-svg {
-      width: 30px;
-      height: 100%;
-      fill: currentColor;
-}
-
-.idx-hdr-svg:hover {
-      fill: #9dbb88;
 }
 
 #idx-atf {
@@ -69,7 +51,7 @@ header div a h1 {
       justify-content: center;
       align-items: center;
       /* background */
-      background-color: darkgrey;
+      background-color: #5b5b5b;
       background-image: url("../img/background-photo-mobile-devices.jpg");
       background-repeat: no-repeat;
       background-position: center;
@@ -79,7 +61,7 @@ header div a h1 {
 }
 
 #idx-atf > div {
-      height: 90vh;
+      height: 85vh;
 }
 
 #idx-center-spacebetween {
@@ -87,6 +69,7 @@ header div a h1 {
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
+      margin-top: 1.5rem;
 }
 
 #idx-center-center {
@@ -96,25 +79,25 @@ header div a h1 {
       align-items: center;
 }
 
-h1 {
+#idx-atf h1 {
       font-size: 2rem;
       text-align: center;
 }
 
-h2 {
+#idx-atf h2 {
       font-size: 1.4rem;
       font-weight: 700;
       text-align: center;
 }
 
-h3 {
+#idx-atf h3 {
       font-size: 1.4rem;
       text-align: center;
       margin-top: 0.9rem;
       line-height: 1.2rem;
 }
 
-button {
+#idx-atf button {
       color: aquamarine;
       font-size: 1.4rem;
       font-weight: 700;
