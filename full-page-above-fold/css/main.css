@@ -17,7 +17,7 @@ header {
 }
 
 header div, header nav {
-      width: 10%;
+      width: 15%;
       height: 80%;
       margin: 0 1rem;
       display: flex;
@@ -28,9 +28,34 @@ header nav {
       justify-content: space-between;
 }
 
+header nav a {
+      padding: 0 1rem;
+}
+
+header div a {
+      height: 100%;
+      display: flex;
+      align-items: center;
+}
+
+header div a:hover {
+      color: #9dbb88;
+}
+
+header nav a:hover {
+      border-radius: 5px;
+      background-color: dimgray;
+}
+
+header div a h1 {
+      font-size: 1rem;
+      margin-left: 0.5rem;
+}
+
 .idx-hdr-svg {
       width: 30px;
-      fill: white;
+      height: 100%;
+      fill: currentColor;
 }
 
 .idx-hdr-svg:hover {
