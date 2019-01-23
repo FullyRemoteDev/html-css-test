@@ -4,6 +4,12 @@ html {
       color: whitesmoke;
 }
 
+.trans {
+      transition-property: all;
+      transition-duration: 500ms;
+      transition-timing-function: ease;
+}
+
 header {
       position: fixed;
       top: 0;
