@@ -1,0 +1,52 @@
+html {
+    font-size: 1vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-width {
+    width: 60vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1rem;
+    border: 1px solid red;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    width: 10%;
+    margin: 1rem 2%;
+    height: 1.5rem;
+    border: 1px solid black;
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav div {
+    width: 25%;
+    border-bottom: 2px solid darkgray;
+}
