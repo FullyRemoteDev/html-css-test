@@ -1,0 +1,33 @@
+#atf,
+header,
+h1,
+footer {
+  border: 2px solid hotpink;
+}
+
+#atf {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  background-color: rgba(208, 210, 255, 0.45);
+}
